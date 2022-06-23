@@ -59,7 +59,7 @@ function Courses() {
 
             <div className="bg-white shadow overflow-hidden sm:rounded-md mt-8">
               <ul role="list" className="divide-y divide-gray-200">
-                {data?.me.enrollments.map((enrollment) => (
+                {data?.me.enrollment.map((enrollment) => (
                   <li key={enrollment.id}>
                     <div className="px-4 py-4 flex items-center sm:px-6">
                       <div className="min-w-0 flex-1 sm:flex sm:items-center sm:justify-between">
